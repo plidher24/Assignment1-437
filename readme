@@ -1,0 +1,166 @@
+start
+
+(set:$playerName to (prompt: "Enter your character's name: ", "John Cena"))
+
+<img src = "https://media.istockphoto.com/photos/plane-wreckage-picture-id1335757782?b=1&k=20&m=1335757782&s=170667a&w=0&h=rN3H0kJFlG0ifzUfR8OXui2IXv9OGJT0vV0H5yEWvwI=">
+
+Welcome, $playerName
+
+
+[[Start Game]]
+
+(set:$playerHealth to 100)
+
+<img src = "https://cdn.pixabay.com/photo/2012/02/23/20/44/snowfall-16319__480.jpg">
+
+$playerName: Health:$playerHealth
+
+
+While flying over the snowy forests of Alaska, your plane engine goes out forcing you to crash into a field. Your job is to survive and get rescued as soon as possible. 
+
+
+After landing and gathering yourself, you see that your plane is completely irrecoverable and the radio does not work. You set foot outside and see that there is a complete blizzard overhead. 
+
+[[Gather supplies and stay at the crash site]]
+[[ Go seek for help immediately in the middle of the forests]]
+(set:$playerHealth to 100)
+
+<img src = "https://media.istockphoto.com/photos/deer-hunting-gear-background-with-rifles-rattling-antlers-deer-call-picture-id871536754?k=20&m=871536754&s=612x612&w=0&h=5ixzlEyaKbWIxFZGu2oEkSobKTj1ePIlGg_dADqvbUU= ">
+
+$playerName: Health:$playerHealth
+
+
+
+Upon gathering your supplies, you find many useful things including a flare gun, food, water, and a rifle. You head back into the remains of the plane to stay warm. Now that the blizzard has passed, you develop a plan to get help. 
+[[Head North where civilization is shown on the map]]
+[[Stay and wait in the plane]]
+(set:$playerHealth to 50)
+
+<img src = "https://cdn.pixabay.com/photo/2015/11/05/22/36/blizzard-1025002__480.jpg">
+
+$playerName: Health:$playerHealth
+
+While walking through the deep snow in the middle of the forests for quite some time, you feel quite exhausted. Your body is nearing hypothermia. Either return to the crash site and gather supplies or keep going to reach help. 
+
+
+[[Keep going, someone has to be nearby]]
+[[Gather supplies and stay at the crash site]]
+(set:$playerHealth to 100)
+
+<img src = "https://cdn.pixabay.com/photo/2015/07/07/08/43/snow-834111__480.jpg">
+
+$playerName: Health:$playerHealth
+
+
+As you are traveling, you see a town marker saying there is civilization 3 miles away. 
+
+[[ Go seek for help]] 
+(set:$playerHealth to 100)
+
+<img src = "https://sportshub.cbsistatic.com/i/2022/02/03/e365c1b6-6f75-4f51-9cd5-865ccb7b2718/rust.png">
+
+$playerName: Health:$playerHealth
+
+As you are waiting, you see a group of individuals coming near your plane. You call for help, but you notice they are a group of armed looters. You have heard of such ruthless looters before and know you are in danger. 
+
+[[Fire your rifle at the looters]]
+[[Hide in the plane]]
+(set:$playerHealth to 0)
+
+<img src = "https://media.istockphoto.com/photos/sick-man-with-hypothermia-on-snow-during-the-day-picture-id1297600696?s=612x612">
+
+$playerName: Health:$playerHealth
+
+
+You fool, you end up reaching a state of hypothermia. You are dead. 
+
+Game over
+
+[[start]]
+(set:$playerHealth to 75)
+
+<img src = "https://ed8ckmzgqur.exactdn.com/wp-content/uploads/2019/11/rimg.jpg?strip=all&lossy=1&ssl=1">
+
+$playerName: Health:$playerHealth
+
+You end up injuring one of the looters while the others run away, but you are shot in the arm. You wait until they are fully gone. As you bandage your arm, you notice the shot wound is only minor. You end up looting one of the injured armed robbers. You end up finding a cell phone with service on it. 
+
+[[Call for help on the phone and wait]]
+[[ Go seek for help]]
+(set:$playerHealth to 0)
+
+<img src = "https://i.cbc.ca/1.4450590.1544571940!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/fond-du-lac-crash.jpg">
+
+$playerName: Health:$playerHealth
+
+The group of looters find you. You are dead.
+
+Game over
+
+
+[[start]]
+
+<img src = "https://www.wildlife.state.nh.us/law-enforcement/images/sar-team-2009-lg.jpg">
+
+$playerName: Health:$playerHealth
+
+As you call the rescue team, they annouce that it will take over 12 hours to reach you. You notice that you have no water left.
+
+[[Go find a source of freshwater]]
+[[Wait and hold for the 12 hours]]
+(set:$playerHealth to 100)
+
+<img src = "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/grizzly-bear-in-snow-01-murray-rudd.jpg">
+
+$playerName: Health:$playerHealth
+
+
+As you are looking for help,  you see a bear 50 yards away steaming towards you.
+
+[[shoot your gun at the bear]] 
+[[Try running as fast as you can]] 
+(set:$playerHealth to 75)
+
+<img src = "https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/grizzly-bear-in-snow-01-murray-rudd.jpg">
+
+$playerName: Health:$playerHealth
+
+
+As you are trying to locate freshwater, you see a bear 50 yards away steaming towards you.
+
+[[shoot your gun at the bear]]
+[[Try running as fast as you can]]
+(set:$playerHealth to 75)
+
+<img src = "https://cdn.tahoedailytribune.com/wp-content/uploads/sites/5/2019/02/Rescue-SSU-020819.jpg">
+
+$playerName: Health:$playerHealth
+
+
+As you are asleep, you are awoken by a sudden sound of a helicopter above. It is the rescue team. You have survived.
+
+You have Won!
+
+[[start]] 
+(set:$playerHealth to 0)
+
+<img src = " https://media.istockphoto.com/photos/the-brown-bear-in-its-natural-habitat-picture-id1214322454?k=20&m=1214322454&s=612x612&w=0&h=Ni07d4wSo8M6bgQMXY7FSeglYdRneUr1vBjgL8hdShs=">
+
+$playerName: Health:$playerHealth
+
+
+You end up shooting the bear, but it still ends up attacking you. You are dead.
+
+Game over
+
+[[start]] 
+(set:$playerHealth to 50)
+
+<img src = "https://cdn.pixabay.com/photo/2016/11/16/12/55/winter-1828779__480.jpg">
+
+$playerName: Health:$playerHealth
+
+
+As you are running, you see a shed nearby. You end up going inside it and close the door. You barricade the door with the materials you find in it. You find a radio and dial for help. The rescue team seems to be 12 hours away. 
+
+[[Wait and hold for the 12 hours]] 
